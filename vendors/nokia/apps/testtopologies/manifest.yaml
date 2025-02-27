@@ -5,7 +5,7 @@ metadata:
 spec:
   group: topologies.eda.nokia.com
   version: v1alpha1
-  title: Topologies
+  title: TestTopologies
   description: |
     This application provides physical topology support
   image: ghcr.io/nokia-eda/apps/topologies:24.12.2
