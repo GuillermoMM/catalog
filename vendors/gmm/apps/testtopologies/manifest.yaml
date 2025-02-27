@@ -1,14 +1,14 @@
 apiVersion: core.eda.nokia.com/v1
 kind: Manifest
 metadata:
-  name: testtopologies
+  name: topologies
 spec:
   group: topologies.eda.nokia.com
   version: v1alpha1
-  title: TestTopologies
+  title: Topologies
   description: |
     This application provides physical topology support
-  image: ghcr.io/nokia-eda/apps/topologies:24.12.2
+  image: ghcr.io/GuillermoMM/apps/topologies:24.12.2
   gitReference: 5e2d31cee9cb24959bc3546014fbb8ef0dde7cd8
   gitPathPrefix: /
   author: Nokia
