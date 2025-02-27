@@ -1,16 +1,14 @@
 apiVersion: core.eda.nokia.com/v1
 kind: Manifest
 metadata:
-  name: topologies
+  name: gmmtopologies
 spec:
   group: topologies.eda.nokia.com
   version: v1alpha1
-  title: Topologies
+  title: gmmTopologies
   description: |
     This application provides physical topology support
   image: ghcr.io/GuillermoMM/apps/topologies:24.12.2
-  gitReference: 38ca0157d7e22b6acd8302869261eb68abc18fd0
-  gitPathPrefix: /
   author: Nokia
   appInfo:
     license: LICENSE
