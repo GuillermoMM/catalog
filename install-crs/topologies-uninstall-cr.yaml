@@ -9,7 +9,7 @@ spec:
     operation: delete
     app: topologies
     catalog: gmm-eda-catalog-builtin-apps
-    vendor: nokia
+    vendor: gmm
     version:
-      value: v2.0.1+24.12.2
+      value: 24.12.3
       type: semver
