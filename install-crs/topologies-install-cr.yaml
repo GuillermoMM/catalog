@@ -7,7 +7,7 @@ spec:
   type: app-installer
   input:
     operation: install
-    app: topologies
+    app: gmmtopologies
     catalog: gmm-eda-catalog-builtin-apps
     vendor: gmm
     version:
