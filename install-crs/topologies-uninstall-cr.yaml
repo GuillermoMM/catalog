@@ -11,5 +11,5 @@ spec:
     catalog: gmm-eda-catalog-builtin-apps
     vendor: gmm
     version:
-      value: 24.12.3
+      value: v24.12.3
       type: semver
