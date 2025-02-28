@@ -9,7 +9,7 @@ spec:
   description: |
     This application provides physical topology support
   image: ghcr.io/guillermomm/apps/topologies:v24.12.2
-  author: Nokia
+  author: gmm
   appInfo:
     license: LICENSE
     categories:
