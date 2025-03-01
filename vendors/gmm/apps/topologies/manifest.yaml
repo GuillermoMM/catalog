@@ -9,6 +9,8 @@ spec:
   description: |
     This application provides physical topology support
   image: ghcr.io/guillermomm/apps/topologies:v24.12.2
+  gitReference: bde87a71530409f3129939cd139aa71c9a389cd0
+  gitPathPrefix: /
   author: gmm
   appInfo:
     license: LICENSE
