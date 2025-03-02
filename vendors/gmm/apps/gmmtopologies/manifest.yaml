@@ -8,7 +8,7 @@ spec:
   title: gmmTopologies
   description: |
     This application provides physical topology support
-  image: ghcr.io/guillermomm/apps/topologies:v24.12.2
+  image: ghcr.io/guillermomm/apps/topologies:v24.12.3
   author: gmm
   appInfo:
     license: LICENSE
@@ -18,7 +18,7 @@ spec:
     - "srl:0.0.0"
     - "srl:24.*" # any release in a major
   supportedCoreVersions:
-    - "v2.0.0"
+    - "v3.0.0"
   components:
     - crd:
         path: topologies/crds/topologies.eda.nokia.com_topolinkmonitors.yaml
