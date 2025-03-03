@@ -5,10 +5,10 @@ metadata:
 spec:
   group: topologies.eda.nokia.com
   version: v1alpha1
-  title: SRxExpertsEMEA
+  title: Darren
   description: |
     This application provides physical topology support
-  image: ghcr.io/guillermomm/apps/topologies:v24.12.8
+  image: ghcr.io/guillermomm/apps/topologies:v24.12.9
   author: guillermo
   appInfo:
     license: LICENSE
