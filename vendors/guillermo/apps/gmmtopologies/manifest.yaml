@@ -8,7 +8,7 @@ spec:
   title: SRxExpertsEMEA
   description: |
     This application provides physical topology support
-  image: ghcr.io/guillermomm/apps/topologies:v24.12.7
+  image: ghcr.io/guillermomm/apps/topologies:v24.12.8
   author: guillermo
   appInfo:
     license: LICENSE
