@@ -9,7 +9,7 @@ spec:
     operation: install
     app: gmmTopologies
     catalog: gmm-eda-catalog-builtin-apps
-    vendor: gmm
+    vendor: guillermo
     version:
       value: v24.12.3
       type: semver
