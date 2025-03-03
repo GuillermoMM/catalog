@@ -8,7 +8,7 @@ spec:
   title: gmmTopologies
   description: |
     This application provides physical topology support
-  image: ghcr.io/guillermomm/apps/topologies:v24.12.3
+  image: ghcr.io/guillermomm/apps/topologies:v24.12.4
   author: gmm
   appInfo:
     license: LICENSE
