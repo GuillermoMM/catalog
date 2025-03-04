@@ -67,6 +67,12 @@ spec:
         namespaced: false
         api:
           expose: readWrite
+    - crd:
+        path: topologies/crds/topologies.eda.nokia.com_trafficoverlays.yaml
+        schema: topologies/openapiv3/eda_oas_topologies.eda.nokia.com_trafficoverlays.json
+        namespaced: false
+        api:
+          expose: readWrite
     - script:
         path: topologies/topolinkmonitor_intent.py
         type: config
@@ -107,6 +113,11 @@ spec:
         type: state
         trigger:
           kind: DiskOverlay
+    - script:
+        path: topologies/traffic_overlay_intent.py
+        type: state
+        trigger:
+          kind: TrafficOverlay
     - cr:
         path: topologies/resources/default.yaml
   dependencies:
